@@ -10,19 +10,18 @@
     tools:context=".GaugeActivity"
     android:background="#ffffff">
 
-    <io.sule.gaugelibrary.GaugeView
+    <com.mix3dstudios.lineargaugelibrary.GaugeView
         android:id="@+id/gauge_view"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:background="#ffffff"
-        gauge:showOuterShadow="false"
-        gauge:showOuterRim="false"
-        gauge:showInnerRim="false"
-        gauge:needleWidth="0.010"
-        gauge:needleHeight="0.40"
-        gauge:scaleStartValue="0"
-        gauge:scaleEndValue="100"
+        android:layout_height="400dp"
         android:layout_marginTop="30dp"
-        />
+        android:background="#ffffff"
+        gauge:needleHeight="0.40"
+        gauge:needleWidth="0.010"
+        gauge:scaleEndValue="100"
+        gauge:scaleStartValue="0"
+        gauge:showInnerRim="false"
+        gauge:showOuterRim="false"
+        gauge:showOuterShadow="false" />
 
 </RelativeLayout>

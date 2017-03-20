@@ -1,4 +1,4 @@
-package io.sule.gaugeview;
+package com.mix3dstudios.gaugeview;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

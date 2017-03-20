@@ -1,4 +1,4 @@
-package io.sule.gaugeview;
+package com.mix3dstudios.gaugeview;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.os.CountDownTimer;
 
 
 import java.util.Random;
-import io.sule.gaugelibrary.GaugeView;
+import com.mix3dstudios.lineargaugelibrary.GaugeView;
 
 
 public class GaugeActivity extends Activity{

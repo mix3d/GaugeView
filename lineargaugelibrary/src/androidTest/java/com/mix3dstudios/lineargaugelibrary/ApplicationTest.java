@@ -1,4 +1,4 @@
-package io.sule.gaugelibrary;
+package com.mix3dstudios.lineargaugelibrary;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

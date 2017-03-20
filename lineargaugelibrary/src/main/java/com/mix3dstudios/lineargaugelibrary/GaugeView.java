@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
  *******************************************************************************/
-package io.sule.gaugelibrary;
+package com.mix3dstudios.lineargaugelibrary;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -34,7 +34,6 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
 
 public class GaugeView extends View {
 

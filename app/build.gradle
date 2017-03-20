@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 21
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "io.sule.gaugeview"
-        minSdkVersion 8
-        targetSdkVersion 22
+        applicationId "com.mix3dstudios.gaugeview"
+        minSdkVersion 14
+        targetSdkVersion 21
         versionCode 1
         versionName "1.0"
     }
@@ -21,5 +21,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project (":gaugelibrary")
+    compile 'com.android.support:support-v4:21.+'
+    compile project (':lineargaugelibrary')
 }
